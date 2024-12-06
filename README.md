@@ -17,12 +17,21 @@ widget:
 - text: 'Ghibli Art, Captured at eye-level on a vibrant day, a man in a blue shirt, and a straw hat is standing in a field of wheat. The man is holding a rifle in his right hand, while his left hand is resting on a wooden fence. In the distance, a brown barn with a brown roof is seen, nestled in the field. The barn is surrounded by trees and a metal tower. The sky is a deep blue, dotted with white clouds, adding a touch of color to the scene.'
   output:
     url: images/4.png
-- text: '-'
+- text: 'Ghibli Art: A bustling village square on a sunny afternoon. A boy in a red scarf and green jacket rides a vintage bicycle through the cobblestone streets, carrying a basket full of bread loaves. To his left, a lively market is set up with colorful stalls, while to his right, a fountain with a bronze statue glistens in the sunlight. The sky is a vivid blue with cotton-like clouds, and the buildings are adorned with flowering vines and wooden shutters.'
   output:
     url: images/5.png
-- text: '-'
+- text: 'Ghibli Art: A young girl with short black hair and a yellow raincoat stands under a red umbrella in the middle of a cobblestone street. Rain falls steadily, creating ripples in puddles around her feet. Behind her, a small bakery with a warm, glowing light spills onto the street, and its wooden sign sways gently in the wind. The sky is heavy with dark gray clouds, and a single beam of light breaks through, illuminating the scene.'
   output:
     url: images/6.png
+- text: 'Ghibli Art: A narrow mountain path shrouded in rain and mist. A traveler in a wide-brimmed straw hat and a long green cloak leans on a wooden staff as they walk. Water cascades down the rocky slopes, forming small streams that crisscross the path. The dark clouds above roll ominously, and a single bird soars against the turbulent sky, adding a sense of movement to the stillness.'
+  output:
+    url: images/7.png
+- text: 'Ghibli Art: A vibrant spring meadow at dawn. A young woman in a lavender dress and straw hat is painting on an easel under a large cherry blossom tree. Pink petals gently fall around her, and a curious white rabbit sits nearby, watching. The meadow is dotted with yellow and purple wildflowers, and a small brook winds its way through the scene. In the background, a quaint cottage with a stone chimney is nestled among rolling green hills'
+  output:
+    url: images/8.png
+- text: 'Ghibli Art: A young boy with tousled black hair sits on a grassy hill under a dark, star-filled sky. He wears a light blue sweater and brown pants, with a small telescope set up in front of him. Around him, fireflies dance in the cool night air, adding a magical glow. A crescent moon hangs low on the horizon, and in the distance, the faint silhouette of a village is visible against the hills.'
+  output:
+    url: images/9.png
 base_model: black-forest-labs/FLUX.1-dev
 instance_prompt: Ghibli Art
 license: openrail
