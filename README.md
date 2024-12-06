@@ -39,11 +39,51 @@ license: openrail
 ![Ghibli.png](https://cdn-uploads.huggingface.co/production/uploads/65bb837dbfb878f46c77de4c/Eq6JzdtLuwJhRINHSNRgt.png)
 
 # Flux-Ghibli-Art-LoRA
+
 <Gallery />
 
+## Model description for Flux-Ghibli-Art-LoRA
 
+Image Processing Parameters 
 
+| Parameter                 | Value  | Parameter                 | Value  |
+|---------------------------|--------|---------------------------|--------|
+| LR Scheduler              | constant | Noise Offset              | 0.03   |
+| Optimizer                 | AdamW  | Multires Noise Discount   | 0.1    |
+| Network Dim               | 64     | Multires Noise Iterations | 10     |
+| Network Alpha             | 32     | Repeat & Steps           | 15 & 2400 |
+| Epoch                     | 15   | Save Every N Epochs       | 1     |
 
+    Labeling: florence2-en(natural language & English)
+    
+    Total Images Used for Training : 20
+
+## Best Dimensions & Inference
+
+| **Dimensions** | **Aspect Ratio** | **Recommendation**       |
+|-----------------|------------------|---------------------------|
+| 1280 x 832      | 3:2              | Best                     |
+| 1024 x 1024     | 1:1              | Default                  |
+
+### Inference Range
+
+- **Recommended Inference Steps:** 30–35
+
+## Setting Up
+```python
+import torch
+from pipelines import DiffusionPipeline
+
+base_model = "black-forest-labs/FLUX.1-dev"
+pipe = DiffusionPipeline.from_pretrained(base_model, torch_dtype=torch.bfloat16)
+
+lora_repo = "strangerzonehf/Flux-Ghibli-Art-LoRA"
+trigger_word = "Ghibli Art"  
+pipe.load_lora_weights(lora_repo)
+
+device = torch.device("cuda")
+pipe.to(device)
+```
 ## Trigger words
 
 You should use `Ghibli Art` to trigger the image generation.
