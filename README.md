@@ -27,15 +27,16 @@ base_model: black-forest-labs/FLUX.1-dev
 instance_prompt: Ghibli Art
 license: openrail
 ---
-# Flux-Ghibli-Art-LoRA
 
+# Flux-Ghibli-Art-LoRA
 <Gallery />
+
+
 
 
 ## Trigger words
 
 You should use `Ghibli Art` to trigger the image generation.
-
 
 ## Download model
 
