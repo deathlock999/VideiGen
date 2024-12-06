@@ -36,6 +36,7 @@ base_model: black-forest-labs/FLUX.1-dev
 instance_prompt: Ghibli Art
 license: openrail
 ---
+![Ghibli.png](https://cdn-uploads.huggingface.co/production/uploads/65bb837dbfb878f46c77de4c/Eq6JzdtLuwJhRINHSNRgt.png)
 
 # Flux-Ghibli-Art-LoRA
 <Gallery />
@@ -47,7 +48,7 @@ license: openrail
 
 You should use `Ghibli Art` to trigger the image generation.
 
-## Download model
+## Download models
 
 Weights for this model are available in Safetensors format.
 
