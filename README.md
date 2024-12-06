@@ -36,7 +36,7 @@ base_model: black-forest-labs/FLUX.1-dev
 instance_prompt: Ghibli Art
 license: openrail
 ---
-![Ghibli.png](https://cdn-uploads.huggingface.co/production/uploads/65bb837dbfb878f46c77de4c/Eq6JzdtLuwJhRINHSNRgt.png)
+![sasd.png](https://cdn-uploads.huggingface.co/production/uploads/65bb837dbfb878f46c77de4c/2NX78V0QlznZB_YTVQqK9.png)
 
 # Flux-Ghibli-Art-LoRA
 
